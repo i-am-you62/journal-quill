@@ -49,6 +49,7 @@ black: #000000 (black)
 *{
   box-sizing: border-box;
   margin: 0px;
+  padding: 0px;
 }
 
 
@@ -213,13 +214,18 @@ span{
   padding: 100px 200px;
   border-radius: 20px;
 }
+.cta-heading{
+  margin-bottom: 30px;
+}
 
 /* ---features section--- */
 .features-main-heading {
   text-align: center;
   margin-bottom: 80px;
 }
-
+.features-heading{
+  margin-bottom: 20px;
+}
 .features-img {
   width: 400px;
 }
